@@ -1,4 +1,4 @@
-package Lecture2;
+package Loops;
 
 
 public class Helloworld {

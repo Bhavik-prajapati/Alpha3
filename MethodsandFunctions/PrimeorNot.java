@@ -30,11 +30,26 @@ public class PrimeorNot {
         }
             return true;
     }
+    public static void PrimeInrange(int n){
+        for (int i = 2; i <=n ; i++) {
+            if(isPrime1(i)){
+                System.out.print(i+" ,");
+            }
+
+        }
+        System.out.println();
+    }
 
 
     public static void main(String[] args) {
-        System.out.println(isPrime(3));
-        System.out.println(isPrime1(12));
-        System.out.println(isPrime1(5));
+//        System.out.println(isPrime(3));
+//        System.out.println(isPrime1(12));
+//        System.out.println(isPrime1(5));
+
+
+//        prime in range
+        PrimeInrange(30);
+
+
     }
 }
