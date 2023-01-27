@@ -87,7 +87,6 @@ public class ArrayCC {
     public static void PrintSubArray(int[] arr){
             int ts=0;
             int sum=0;
-        ArrayList<Integer> Sums=new ArrayList<Integer>();
 
         for (int i = 0; i < arr.length; i++) {
             int start=i;
@@ -117,12 +116,12 @@ public class ArrayCC {
             for (int j = i; j <arr.length ; j++) {
                 currSum=0;
                 int last=j;
-                for (int k = start; k <=last ; k++) {
-//                    System.out.print(arr[k]+" ");
-                    currSum+=arr[k];
-                }
-                System.out.println(currSum);
                 if(MaxSum<currSum){
+                    for (int k = start; k <=last ; k++) {
+//                    System.out.print(arr[k]+" ");
+                        currSum+=arr[k];
+                    }
+                    System.out.println(currSum);
                     MaxSum=currSum;
                 }
             }
@@ -190,8 +189,8 @@ public class ArrayCC {
 //        System.out.println(Arrays.toString(arr));
 //        PrintPairs(arr);
 //        PrintSubArray(arr);
-//        MaxSubArraySum(arr);
+        MaxSubArraySum(arr);
 //        MaxSubArraySum_PrefixSum(arr);
-        Kadanes(arr);
+//        Kadanes(arr);
     }
 }
