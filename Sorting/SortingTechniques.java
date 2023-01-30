@@ -45,9 +45,9 @@ public class SortingTechniques {
                     minPositon=j;
                 }
             }
-            int temp=arr[minPositon];
-            arr[minPositon]=arr[i];
-            arr[i]=temp;
+                int temp=arr[minPositon];
+                arr[minPositon]=arr[i];
+                arr[i]=temp;
         }
     }
     public static void InsertionSort(Integer[] arr) {
@@ -127,7 +127,7 @@ public class SortingTechniques {
 //        Arrays.sort(arr,Collections.reverseOrder());
 //        Arrays.sort(arr,0,3,Collections.reverseOrder());
 
-        CountingSort(arr);
+//        CountingSort(arr);
         PrintArray(arr);
 
 
