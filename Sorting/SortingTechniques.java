@@ -111,13 +111,21 @@ public class SortingTechniques {
                 count[i]--;
             }
         }
+
+//        System.out.println(Arrays.toString(arr));
     }
 
 
 
 
     public static void main(String[] args) {
-        Integer arr[]={1,5,3,6,3,6,3,4,5};
+        Integer arr[]={0 ,2 ,1 ,2,0};
+        CountingSort(arr);
+
+
+
+
+
 //        BubbleSort(arr);
 //        SelectionSort(arr);
 //        InsertionSort(arr);
