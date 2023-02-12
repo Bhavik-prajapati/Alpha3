@@ -43,7 +43,6 @@ public class Homework {
 //        final Car car=new EvCar();
 //        System.out.println(car.drive());
         new Car();
-
     }
 }
 
