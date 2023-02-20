@@ -103,6 +103,9 @@ public class Hw {
         towerOfHanoi(n-1,helper,src,dest);
     }
 
+
+
+
     public static void main(String[] args) {
 //        int  arr[] = {3, 2, 4, 5, 6, 2, 7, 2, 2};
 //        int key=2;
@@ -115,8 +118,11 @@ public class Hw {
 //        String s="abcab";
 //        System.out.println(countSubstrings(s,0,s.length()-1,s.length()));
 
-        int n=4;
-        towerOfHanoi(n,"A","B","C");
+//        int n=4;
+//        towerOfHanoi(n,"A","B","C");
+
+
+
 
 
 

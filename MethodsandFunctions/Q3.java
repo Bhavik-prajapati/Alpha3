@@ -1,6 +1,5 @@
 package MethodsandFunctions;
 
-import sun.org.mozilla.javascript.internal.ast.ScriptNode;
 
 import java.util.Scanner;
 

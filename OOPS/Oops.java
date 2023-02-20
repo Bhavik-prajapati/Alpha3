@@ -1,7 +1,5 @@
 package OOPS;
 
-import sun.security.util.Password;
-
 public class Oops {
     public static void main(String[] args) {
 //        Student s1=new Student("bhavik");

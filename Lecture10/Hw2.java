@@ -1,6 +1,5 @@
 package Lecture10;
 
-import sun.org.mozilla.javascript.internal.ast.ScriptNode;
 
 import java.util.Scanner;
 

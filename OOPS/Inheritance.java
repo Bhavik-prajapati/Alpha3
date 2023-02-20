@@ -1,6 +1,6 @@
 package OOPS;
 
-import com.sun.org.apache.xerces.internal.impl.dv.xs.AnyURIDV;
+
 
 public class Inheritance {
     public static void main(String[] args) {

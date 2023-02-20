@@ -1,6 +1,5 @@
 package Bitmanipulation;
 
-import com.sun.org.apache.xalan.internal.xsltc.trax.XSLTCSource;
 
 public class BitManipulation {
     public static void OddEven(int n){
