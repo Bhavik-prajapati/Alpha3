@@ -27,12 +27,10 @@ public class MostWater {
             int width=rp-lp;
             int currwater=height*width;
             maxwater=Math.max(maxwater,currwater);
-
-
             if(h.get(lp)<h.get(rp)){
                 lp++;
             }else{
-                rp--;
+            rp--;
             }
         }
 
