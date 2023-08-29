@@ -23,36 +23,50 @@ public class Backtracking {
     }
 
     public static void findSubsets(String str,String ans, int i){
-        //base case
-        if(i==str.length()){
 
-            if(ans.length()==0){
+//        2^n subsets possible
+        if(i==str.length()){
+            if(ans.length()==0)
+            {
                 System.out.println("null");
             }else{
-                System.out.println(ans);
-            }
 
+            System.out.println(ans);
+            }
             return;
         }
-        //recursion
+        //yes
         findSubsets(str,ans+str.charAt(i),i+1);
         findSubsets(str,ans,i+1);
+
+
+
+
+
+
+
     }
 
 
     public static void findPermutation(String str,String ans){//0(n*n!)
 
-        if(str.length()==0){
-            System.out.println(ans);
-            return;
-        }
 
+            if(str.length()==0){
+                System.out.println(ans);
+                return;
+            }
         for (int i = 0; i < str.length(); i++) {
             char curr=str.charAt(i);
-            String Newstr=str.substring(0,i)+str.substring(i+1);
-            findPermutation(Newstr,ans+curr);
+
+            String newstr=str.substring(0,i)+str.substring(i+1);
+            findPermutation(newstr,ans+curr);
+
 
         }
+
+
+
+
     }
 
 
